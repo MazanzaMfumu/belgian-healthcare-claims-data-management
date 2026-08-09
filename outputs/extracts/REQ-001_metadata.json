@@ -1,0 +1,8 @@
+{
+  "request_id": "REQ-001",
+  "generated_at": "2026-08-09T19:39:48.851336+00:00",
+  "row_count": 733,
+  "sql_file": "sql/REQ-001.sql",
+  "output_file": "outputs/extracts/REQ-001.csv",
+  "sha256": "b05f60c4811510ea633a2994bf23d8e00e90f3b9a8396b6d6719f824de060f57"
+}
