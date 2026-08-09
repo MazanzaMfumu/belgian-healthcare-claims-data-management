@@ -1,0 +1,29 @@
+dataset: healthcare_claims_delivery
+version: "1.0"
+
+file:
+  format: csv
+  delimiter: ","
+  encoding: utf-8
+
+primary_key:
+  - claim_id
+
+required_columns:
+  - claim_id
+  - patient_id
+  - procedure_date
+  - procedure_code
+  - provider_id
+  - institution_id
+  - reimbursement_amount
+  - patient_co_payment
+  - quantity
+  - accounting_year
+  - accounting_month
+  - source_organisation
+  - delivery_id
+
+delivery:
+  frequency: monthly
+  filename_pattern: "OA##_YYYY_MM.csv"

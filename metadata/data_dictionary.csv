@@ -1,0 +1,14 @@
+variable,type,description,nullable,example
+claim_id,string,Unique synthetic healthcare claim identifier,No,OA01-C000001
+patient_id,string,Synthetic pseudonymous patient identifier,No,P000123
+procedure_date,date,Date of healthcare service,No,2025-01-15
+procedure_code,string,Synthetic healthcare procedure code,No,PROC001
+provider_id,string,Synthetic healthcare provider identifier,Yes,PRV010
+institution_id,string,Synthetic healthcare institution identifier,No,INST005
+reimbursement_amount,decimal,Amount reimbursed by insurer,No,42.50
+patient_co_payment,decimal,Patient co-payment amount,No,5.00
+quantity,integer,Number of billed units,No,1
+accounting_year,integer,Accounting year,No,2025
+accounting_month,integer,Accounting month,No,2
+source_organisation,string,Synthetic source organisation,No,OA01
+delivery_id,string,Unique delivery identifier,No,OA01_2025_01
