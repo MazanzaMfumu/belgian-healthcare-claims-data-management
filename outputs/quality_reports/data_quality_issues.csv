@@ -1,0 +1,36 @@
+delivery_id,rule_id,severity,claim_id,field,observed_value,expected_value
+OA02_2025_01,DQ010,WARNING,OA02-C000001,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000002,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000003,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000004,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000005,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000006,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000007,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000008,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000009,provider_id,,Provider identifier should be available
+OA02_2025_01,DQ010,WARNING,OA02-C000010,provider_id,,Provider identifier should be available
+OA03_2025_01,DQ002,ERROR,OA03-C000001,claim_id,OA03-C000001,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000002,claim_id,OA03-C000002,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000003,claim_id,OA03-C000003,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000004,claim_id,OA03-C000004,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000005,claim_id,OA03-C000005,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000001,claim_id,OA03-C000001,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000002,claim_id,OA03-C000002,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000003,claim_id,OA03-C000003,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000004,claim_id,OA03-C000004,Unique claim identifier
+OA03_2025_01,DQ002,ERROR,OA03-C000005,claim_id,OA03-C000005,Unique claim identifier
+OA04_2025_01,DQ004,ERROR,OA04-C000001,reimbursement_amount,-25.0,Numeric value greater than or equal to zero
+OA04_2025_01,DQ004,ERROR,OA04-C000002,reimbursement_amount,-25.0,Numeric value greater than or equal to zero
+OA04_2025_01,DQ004,ERROR,OA04-C000003,reimbursement_amount,-25.0,Numeric value greater than or equal to zero
+OA04_2025_01,DQ004,ERROR,OA04-C000004,reimbursement_amount,-25.0,Numeric value greater than or equal to zero
+OA04_2025_01,DQ004,ERROR,OA04-C000005,reimbursement_amount,-25.0,Numeric value greater than or equal to zero
+OA05_2025_01,DQ003,ERROR,OA05-C000001,procedure_date,2030-01-15,Date must not be in the future
+OA05_2025_01,DQ003,ERROR,OA05-C000002,procedure_date,2030-01-15,Date must not be in the future
+OA05_2025_01,DQ003,ERROR,OA05-C000003,procedure_date,2030-01-15,Date must not be in the future
+OA05_2025_01,DQ003,ERROR,OA05-C000004,procedure_date,2030-01-15,Date must not be in the future
+OA05_2025_01,DQ003,ERROR,OA05-C000005,procedure_date,2030-01-15,Date must not be in the future
+OA06_2025_01,DQ009,ERROR,OA06-C000001,institution_id,INST999,Known institution identifier
+OA06_2025_01,DQ009,ERROR,OA06-C000002,institution_id,INST999,Known institution identifier
+OA06_2025_01,DQ009,ERROR,OA06-C000003,institution_id,INST999,Known institution identifier
+OA06_2025_01,DQ009,ERROR,OA06-C000004,institution_id,INST999,Known institution identifier
+OA06_2025_01,DQ009,ERROR,OA06-C000005,institution_id,INST999,Known institution identifier

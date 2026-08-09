@@ -1,0 +1,8 @@
+delivery_id,filename,status,missing_columns,unexpected_columns,row_count_match,message
+OA01_2025_01,OA01_2025_01.csv,PASS,,,True,Schema valid
+OA02_2025_01,OA02_2025_01.csv,PASS,,,True,Schema valid
+OA03_2025_01,OA03_2025_01.csv,PASS,,,False,Schema valid
+OA04_2025_01,OA04_2025_01.csv,PASS,,,True,Schema valid
+OA05_2025_01,OA05_2025_01.csv,PASS,,,True,Schema valid
+OA06_2025_01,OA06_2025_01.csv,PASS,,,True,Schema valid
+OA07_2025_01,OA07_2025_01.csv,FAIL,patient_co_payment,,True,Missing mandatory columns
