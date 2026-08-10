@@ -1,6 +1,6 @@
 # Belgian Healthcare Claims Data Management Pipeline
 
-<!-- Collez ici le badge GitHub Actions copié depuis GitHub (workflow Python tests). -->
+[![Python tests](https://github.com/MazanzaMfumu/belgian-healthcare-claims-data-management/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/MazanzaMfumu/belgian-healthcare-claims-data-management/actions/workflows/tests.yml)
 
 **Validation technique vérifiée :** GitHub Actions — **Success** · pytest — **4/4 tests passed (100 %)**.
 
