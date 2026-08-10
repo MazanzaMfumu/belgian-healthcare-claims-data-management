@@ -149,39 +149,22 @@ Transformation d'un besoin métier en requête SQL et production d'un fichier tr
 
 ```mermaid
 flowchart TD
-
-    A[Organismes sources OA01 à OA07]
-        --> B[Livraisons CSV brutes]
-
-    B --> C[Validation du schéma]
-
-    C --> D{Schéma conforme ?}
-
-    D -- Non --> E[Quarantaine]
-
-    D -- Oui --> F[Contrôles Data Quality]
-
-    F --> G{Erreur bloquante ?}
-
-    G -- Oui --> E
-
-    G -- Non --> H[Données acceptées]
-
-    H --> I[ETL]
-
-    I --> J[Base DuckDB]
-
-    J --> K[Requête SQL contrôlée]
-
-    K --> L[Extraction]
-
-    F --> M[Rapport qualité]
-
-    M --> N[Gestion des anomalies]
-
+    A["Organismes sources OA01 à OA07"] --> B["Livraisons CSV brutes"]
+    B --> C["Validation du schéma"]
+    C --> D{"Schéma conforme ?"}
+    D -->|Non| E["Quarantaine"]
+    D -->|Oui| F["Contrôles Data Quality"]
+    F --> G{"Erreur bloquante ?"}
+    G -->|Oui| E
+    G -->|Non| H["Données acceptées"]
+    H --> I["ETL"]
+    I --> J["Base DuckDB"]
+    J --> K["Requête SQL contrôlée"]
+    K --> L["Extraction"]
+    F --> M["Rapport qualité"]
+    M --> N["Gestion des anomalies"]
+    
 ```
-
----
 
 ## 7. Contrat de données et métadonnées
 
